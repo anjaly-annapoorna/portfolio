@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Anjaly – AI & ML Portfolio</title>
+
+<style>
+body{
+  font-family:'Segoe UI',Arial,sans-serif;
+  margin:0;
+  background:#f4f7f8;
+  color:#2c3e50;
+  line-height:1.6;
+}
+
+/* Navbar */
+nav{
+  position:fixed;
+  top:0;
+  width:100%;
+  background:#2980b9;
+  padding:14px 30px;
+  display:flex;
+  justify-content:space-between;
+  align-items:center;
+  box-shadow:0 5px 15px rgba(44,62,80,.15);
+  z-index:1000;
+}
+nav .brand{
+  color:#fff;
+  font-weight:700;
+}
+nav ul{
+  list-style:none;
+  display:flex;
+  gap:20px;
+  margin:0;
+  padding:0;
+}
+nav ul li a{
+  color:#fff;
+  text-decoration:none;
+  font-weight:600;
+}
+
+/* Hero */
+header.hero{
+  margin-top:80px;
+  max-width:900px;
+  margin-left:auto;
+  margin-right:auto;
+  background:#fff;
+  border-radius:10px;
+  padding:50px 30px;
+  text-align:center;
+  box-shadow:0 5px 20px rgba(44,62,80,.1);
+}
+header.hero h1{
+  color:#2980b9;
+  font-size:2.2em;
+}
+header.hero p{
+  font-size:1.15em;
+}
+.cv-btn{
+  background:#2980b9;
+  color:#fff;
+  padding:10px 20px;
+  border-radius:6px;
+  text-decoration:none;
+  font-weight:600;
+}
+
+/* Container */
+.container{
+  max-width:900px;
+  margin:40px auto;
+}
+
+/* Sections – box + hover + center scroll */
+section{
+  background:#fff;
+  padding:32px 28px;
+  border-radius:10px;
+  margin-bottom:30px;
+  box-shadow:0 4px 15px rgba(44,62,80,.08);
+  scroll-margin-top:35vh;
+  transition:transform .3s ease, box-shadow .3s ease;
+}
+section:hover{
+  transform:translateY(-6px);
+  box-shadow:0 10px 30px rgba(44,62,80,.18);
+}
+
+h2{
+  color:#2471a3;
+  border-left:5px solid #3498db;
+  padding-left:12px;
+  margin-bottom:14px;
+}
+
+/* Skills */
+.skills-columns{
+  display:flex;
+  flex-wrap:wrap;
+  gap:26px;
+}
+.skills-columns div{
+  flex:1 1 220px;
+}
+
+/* Projects */
+.project-item{
+  background:#ebf5fb;
+  border-left:5px solid #2980b9;
+  padding:16px 18px;
+  border-radius:8px;
+  margin-bottom:20px;
+}
+
+/* Table */
+table{
+  width:100%;
+  border-collapse:collapse;
+}
+table th,table td{
+  padding:12px 10px;
+  border-bottom:1px solid #bdc3c7;
+  text-align:left;
+}
+table th{
+  background:#ecf0f1;
+}
+
+/* Contact */
+.contact{
+  background:#d6eaf8;
+  padding:22px 18px;
+  border-radius:8px;
+}
+
+footer{
+  text-align:center;
+  color:#7f8c8d;
+  margin:30px 0;
+  font-style:italic;
+}
+</style>
+</head>
+
+<body>
+
+<nav>
+  <div class="brand">ANJALY ANNAPOORNA V S</div>
+  <ul>
+    <li><a href="#about">About</a></li>
+    <li><a href="#skills">Skills</a></li>
+    <li><a href="#projects">Projects</a></li>
+    <li><a href="#education">Education</a></li>
+    <li><a href="#certification">Certification</a></li>
+    <li><a href="#training">Training</a></li>
+    <li><a href="#reflection">Reflection</a></li>
+    <li><a href="#contact">Contact</a></li>
+  </ul>
+</nav>
+
+<header class="hero">
+  <h1>Hi, I’m Anjaly</h1>
+  <p>Welcome to my professional space of learning and creativity.</p>
+  <a href="#" class="cv-btn">Download CV</a>
+</header>
+
+<div class="container">
+
+<section id="about">
+<h2>About Me</h2>
+<p>
+I'm an aspiring AI & ML enthusiast and junior data analytics student with a bold curiosity
+for how intelligent systems are reshaping the world. While I'm just beginning my journey,
+I'm captivated by data, algorithms, and the possibilities they unlock.
+</p>
+<p>
+I believe clear communication, conflict resolution, organization, and adaptability
+are the foundation of meaningful collaboration and impactful work.
+</p>
+</section>
+
+<section id="skills">
+<h2>I'm Actively Building My Foundation In</h2>
+<div class="skills-columns">
+<div>
+<ul>
+<li>AI & Machine Learning for Telecom Analytics</li>
+<li>Data Collection & Preprocessing using AI Tools</li>
+<li>Exploratory Data Analysis (EDA)</li>
+<li>Predictive Analytics & Augmented Analytics</li>
+</ul>
+</div>
+<div>
+<ul>
+<li>Business Intelligence & Reporting</li>
+<li>Telecom Network Data Analysis</li>
+<li>Customer Analytics & Churn Analysis</li>
+<li>Fraud Detection (Basic AI Concepts)</li>
+</ul>
+</div>
+<div>
+<ul>
+<li>Data Cleaning & Validation</li>
+<li>Feature Engineering & Algorithm Development</li>
+<li>AI-based Data Accessibility Techniques</li>
+</ul>
+</div>
+</div>
+</section>
+
+<section id="education">
+<h2>Learning Path</h2>
+<table>
+<tr>
+<th>Year</th>
+<th>Qualification</th>
+<th>Institution</th>
+</tr>
+<tr>
+<td>2025 (Ongoing)</td>
+<td>AI & ML, Junior Data Analytics Course</td>
+<td>Skill Development Centre, GVHSS Puthukad</td>
+</tr>
+<tr>
+<td>2020 – 2022</td>
+<td>Higher Secondary (Biology Science)</td>
+<td>Sacred Heart CGHSS, Thrissur</td>
+</tr>
+</table>
+</section>
+
+<section id="projects">
+<h2>Hands-on Projects</h2>
+
+<div class="project-item">
+<strong>Crop Recommendation system</strong>
+<p>Developed a machine learning–based crop recommendation system using soil, weather, and nutrient data to optimize crop selection.</p>
+<p><em>Skills:</em> Python, Data preprocessing, EDA, Feature engineering, Machine learning, and Data analysis.</p>
+</div>
+
+<div class="project-item">
+<strong>Churn Prediction </strong>
+<p>A system that predicts customer churn by analyzing user behavior and historical data.</p>
+<p><em>Skills:</em> Python, Data preprocessing, EDA, Feature engineering, Machine learning, and Model evaluation.</p>
+</div>
+
+
+<p><em>Each project fuels my curiosity and sharpens my skills.</em></p>
+</section>
+
+<section id="certification">
+<h2>Certification</h2>
+<ul>
+<li>Certificate in Google AI Agent</li>
+</ul>
+</section>
+
+<section id="training">
+<h2>On-the-Job Training</h2>
+<ul>
+<li>Atees Infomedia Pvt. Ltd., Thrissur</li>
+</ul>
+</section>
+
+<section id="reflection">
+<h2>Reflection</h2>
+<p>
+My mission is to grow into a skilled AI practitioner who builds ethical,
+impactful, and innovative solutions. I'm especially excited about computer vision
+and natural language processing and committed to continuous learning.
+</p>
+</section>
+
+<section>
+<p style="font-size:1.2em;font-weight:600;color:#2471a3;">
+Thanks for visiting my portfolio!
+</p>
+<p>
+I'm excited to grow, collaborate, and explore the endless possibilities of AI and ML.
+</p>
+</section>
+
+<section id="contact">
+<div class="contact">
+<p><strong>Want to work together or have any questions? Reach out.</strong></p>
+<p>Phone: 7736803415</p>
+<p>Email: anjalyannapoorna197@gmail.com</p>
+<p>GitHub:<a href="https://github.com/anjaly-annapoorna">Anjaly Annapoorna</a></p>
+<p>LinkedIn:<a href="https://www.linkedin.com/in/anjaly-annapoorna/">Anjaly Annapoorna</a></p>
+</div>
+</section>
+
+<footer>
+© 2025 Anjaly – AI & ML Portfolio. Let's innovate and collaborate.
+</footer>
+
+</div>
+</body>
+</html>
